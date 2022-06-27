@@ -61,11 +61,16 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              Jmix <span className="text-color-primary">Petclinic</span>
+              <Image
+                  className="has-shadow"
+                  src={require('./../../assets/images/petclinic_logo_with_slogan.svg')}
+                  alt="Hero"
+                  width={896}
+                  height={504} />
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                This example website shows how to connect the Jmix Petclinic with the Intercom Client
+                The Jmix Petclinic is the industry leading Petclinic Management Software build for efficiency.
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
@@ -88,7 +93,7 @@ const Hero = ({
             >
               <Image
                 className="has-shadow"
-                src={require('./../../assets/images/petclinic_logo_with_slogan.svg')}
+                src={require('./../../assets/images/screenshots/login-screen.png')}
                 alt="Hero"
                 width={896}
                 height={504} />
